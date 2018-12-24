@@ -4,13 +4,13 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
-useHLJS = true
-#pygmentsStyle = "monokai"
+# useHLJS = true
+pygmentsStyle = "monokai"
 #pygmentsUseClassic = true
-#pygmentsUseClasses = true
-#pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsCodeFences = true
 #pygmentsCodefencesGuessSyntax = true
-disqusShortname = "zhiweiyin"
+disqusShortname = "zhiweiyinblog"
 #googleAnalytics = "XXX"
 
 [Params]
@@ -31,8 +31,8 @@ disqusShortname = "zhiweiyin"
   delayDisqus = true
   showRelatedPosts = true
   
-[[Params.bigimg]]
- src = "images/backend-pic.jpg"
+# [[Params.bigimg]]
+#  src = "images/backend-pic.jpg"
  #desc = "code"
 # [[Params.bigimg]]
 #  src = "img/sphere.jpg"
@@ -66,10 +66,10 @@ disqusShortname = "zhiweiyin"
  # paypal = "username"
   #telegram = "username"
 
-[[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
+# [[menu.main]]
+#     name = "home"
+#     url = "/"
+#     weight = 1
 
 [[menu.main]]
     identifier = "categories"
@@ -141,9 +141,9 @@ disqusShortname = "zhiweiyin"
     url = "https://github.com/zhiweiyin318/kquant"
     weight = 1
 
-[[menu.main]]
-    name = "about"
-    url = "/about"
-    weight = 6
+# [[menu.main]]
+#     name = "about"
+#     url = "/about"
+#     weight = 6
 
 
