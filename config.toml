@@ -4,17 +4,17 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
-#useHLJS = true
-pygmentsStyle = "monokai"
+useHLJS = true
+#pygmentsStyle = "monokai"
 #pygmentsUseClassic = true
-pygmentsUseClasses = true
-pygmentsCodeFences = true
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
 #pygmentsCodefencesGuessSyntax = true
 disqusShortname = "zhiweiyin"
 #googleAnalytics = "XXX"
 
 [Params]
-  subtitle = "Old Coder"
+  subtitle = "Lazy Coder"
   logo = "images/avatar-icon.png"
   favicon = "images/favicon.ico"
   dateFormat = "Mon Jan 2, 2006"
@@ -28,18 +28,18 @@ disqusShortname = "zhiweiyin"
  # readingTime = true
   wordCount = true
   #socialShare = true
-  #delayDisqus = true
+  delayDisqus = true
   showRelatedPosts = true
   
 [[Params.bigimg]]
- src = "img/triangle.jpg"
- desc = "Triangle"
-[[Params.bigimg]]
- src = "img/sphere.jpg"
- desc = "Sphere"
-[[Params.bigimg]]
- src = "img/hexagon.jpg"
- desc = "Hexagon"
+ src = "images/backend-pic.jpg"
+ #desc = "code"
+# [[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+# [[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
 [Author]
   name = "Zhiwei Yin"
@@ -123,11 +123,23 @@ disqusShortname = "zhiweiyin"
     name = "notes"
     weight = 4
 
+[[menu.main]]
+    parent = "notes"
+    name = "kubernetes demo"
+    url = "k8s-demo"
+    weight = 1
+
 
 [[menu.main]]
     identifier = "projects"
     name = "porjects"
     weight = 5
+
+[[menu.main]]
+    parent = "projects"
+    name = "Kquant"
+    url = "https://github.com/zhiweiyin318/kquant"
+    weight = 1
 
 [[menu.main]]
     name = "about"
