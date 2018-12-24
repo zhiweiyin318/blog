@@ -4,5 +4,5 @@
 	branch = master
 [submodule "themes/beautifulhugo"]
 	path = themes/beautifulhugo
-	url = https://github.com/halogenica/beautifulhugo.git
-	branch = master
+	url = git@github.com:zhiweiyin318/beautifulhugo.git
+	branch = mytheme
