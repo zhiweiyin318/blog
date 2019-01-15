@@ -125,8 +125,8 @@ disqusShortname = "zhiweiyinblog"
 
 [[menu.main]]
     parent = "notes"
-    name = "kubernetes demo"
-    url = "k8s-demo"
+    name = "kubernetes notes"
+    url = "k8s-notes"
     weight = 1
 
 
