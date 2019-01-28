@@ -19,8 +19,8 @@ disqusShortname = "zhiweiyinblog"
   favicon = "images/favicon.ico"
   dateFormat = "Mon Jan 2, 2006"
   commit = false
-  rss = true
-  baiduKey = "" # Baidu analytics
+  #rss = true
+  #baiduKey = "" # Baidu analytics
   comments = true
  
   #gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
@@ -28,9 +28,10 @@ disqusShortname = "zhiweiyinblog"
  # readingTime = true
   wordCount = true
   #socialShare = true
-  delayDisqus = true
+  #delayDisqus = true
   showRelatedPosts = true
-  
+  toc = true
+
 # [[Params.bigimg]]
 #  src = "images/backend-pic.jpg"
  #desc = "code"
