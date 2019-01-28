@@ -4,7 +4,7 @@ title: "Go modules"
 subtitle: "Go mudules Tutorial"
 comments: true
 date: 2019-01-24
-lastmod: 2019-01-24
+lastmod: 2019-01-28
 tags: ["golang"]
 categories: ["golang"]
 draft: false
@@ -16,9 +16,12 @@ draft: false
 > * https://blog.golang.org/modules2019   
 > * https://tonybai.com/2018/07/15/hello-go-module/  
 > * https://github.com/golang/go/wiki/Modules   
-> * https://www.melvinvivas.com/go-version-1-11-modules/  
+> * https://www.melvinvivas.com/go-version-1-11-modules/   
+> * https://github.com/golang/go/wiki/Modules
 
 Go 1.11 之前,code必须在`GOPATH/src`路径下，依赖的package也必须在这个目录下，`go get `下载的包也在这个目录下。Go 1.11开始支持 **go modules**功能，code不需要放到 `GOPATH/src` 路径下了，可以放到任何地方。  
+
+Go modules were initially released with Go1.11. Fixes and improvements in Go1.11.2 and the to-be-released Go1.12 have and will make Go modules even better.
 
 目前Go 1.11版本默认情况,如果根目录下没有`go.mod`文件，还是使用`GOPATH`路径下找依赖包：
 
